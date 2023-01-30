@@ -1,65 +1,62 @@
-@media (max-width:1257px){
-    .div-img img{
+@media (max-width:1257px) {
+    /* .div-img img {
         background-image: url('assets/bg-1.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    }
-}
-/* @media (max-width:1136px){
-    .div-img img{
-        max-width: 700px;
-        max-height: 700px;
-    }
-} */
-@media (max-width:860px) {
-    .main-principal {
-        background-image: url('assets/bg-1-mobile.png');
         background-repeat: no-repeat;
         background-size: contain;
-    }
-    .main-principal{
+    } */
+}
+
+@media (max-width:860px) {
+    .main-principal {
+        background-image:none;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        height: 100%;
     }
-    .div-img img{
+
+    .div-img img {
         max-width: 500px;
         max-height: 500px;
     }
+
     .parabens {
         width: 60%;
     }
-    .div-textos{
-       align-items: center;
-       margin: 0 auto;
-       width: 70%;
+
+    .div-textos {
+        align-items: center;
+        margin: 0 auto;
+        width: 70%;
     }
-    .button{
+
+    .button {
         margin-top: 30px;
         margin-bottom: 50px;
         width: 100%;
     }
 }
+
 @media (max-width:387px) {
-    .div-img img{
+    .div-img img {
         max-width: 400px;
         max-height: 400px;
     }
-   
-    .div-footer p{
-       text-align: center;
-    }
-    .button{
+
+    .button {
         border-radius: 6px;
     }
+
     .button p {
         font-size: 15px;
     }
 }
-@media (max-width:450px){
+
+@media (max-width:450px) {
     .parabens {
         width: 90%;
     }
+
     .button p {
         font-size: 15px;
     }

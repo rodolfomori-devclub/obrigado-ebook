@@ -29,7 +29,6 @@
     font-family: 'Sora', sans-serif;
     text-decoration: none;
 }
-
 .main-principal{
     background-image: url('assets/bg-1.png');
     background-repeat: no-repeat;
@@ -39,7 +38,8 @@
     align-items: center;
     justify-content: center;
     padding-top:75px;
-
+    padding-bottom:75px;
+    height: 100vh;
 }
 .div-img img{
     max-width: 780px;
@@ -76,8 +76,7 @@
     font-family:'Sora-Regular';
 }
 .p-1 strong{
-    font-size: 15px;
-    font-family:'Sora-Medium';
+    font-family:'Sora-Bold';
 }
 .p-3 strong{
     font-size: 20px;
@@ -111,11 +110,11 @@ transform: scale(1.04);
     margin: 10px;
 }
 footer {
-    padding: 20px;
-    height: 100%;
+    padding: 30px;
     background-color: #9BBB17;
-    margin-top: 30px;
     text-align: center;
+    position: relative;
+    bottom: 0;
 }
 footer p{
     font-size: 15px;
